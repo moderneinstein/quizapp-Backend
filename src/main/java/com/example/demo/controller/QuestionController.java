@@ -21,7 +21,7 @@ public class QuestionController {
         questionService.addQuestions(questionDTO);
     }
 
-//    http://10.177.68.85/staticQuestions/getQuestions/{category}
+    //    http://10.177.68.85/staticQuestions/getQuestions/{category}
     @GetMapping(value = "/getQuestions/{category}")
     public Response<List<Question>> getQuestions(@PathVariable("category") String category) {
         Response<List<Question>> responses = new Response<>();

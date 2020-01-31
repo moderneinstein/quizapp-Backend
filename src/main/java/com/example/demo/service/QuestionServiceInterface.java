@@ -10,4 +10,4 @@ public interface QuestionServiceInterface
     public void addQuestions(QuestionDTO questionDTO);
     public List<Question> getQuestions(String category);
 
-    }
+}
