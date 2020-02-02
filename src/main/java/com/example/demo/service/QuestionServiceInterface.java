@@ -5,9 +5,8 @@ import com.example.demo.entity.Question;
 
 import java.util.List;
 
-public interface QuestionServiceInterface
-{
-    public void addQuestions(QuestionDTO questionDTO);
-    public List<Question> getQuestions(String category);
-
+public interface QuestionServiceInterface {
+    void addQuestions(QuestionDTO questionDTO);
+    List<Question> getQuestions(String category);
+    List<Question> getQuiz(String quizName);
 }
